@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import CountContext from "./CountContext";
-import Displayer from "./Displayer";
-import Button from "./Button";
+import ClickMe from "./ClickMe";
 import "./styles.css";
 
 function App() {
@@ -16,8 +15,7 @@ function App() {
   return (
     <div className="App">
       <CountContext.Provider value={[count, setCount]}>
-        <Displayer />
-        <Button />
+        <ClickMe />
       </CountContext.Provider>
     </div>
   );
