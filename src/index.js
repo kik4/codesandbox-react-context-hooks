@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
-import CountContext from "./CountContext";
-import ClickMe from "./ClickMe";
+import CountContext from "./context/CountContext";
+import ClickMe from "./molecules/ClickMe";
 import "./styles.css";
 
 function App() {
